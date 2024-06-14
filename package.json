@@ -1,17 +1,12 @@
 {
   "name": "wss",
   "version": "1.0.0",
-  "main": "socket.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node socket.js"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.19.2",
-    "http": "^0.0.1-security",
-    "socket.io": "^4.7.5"
+    "ws": "^8.17.0"
   }
 }
